@@ -1,0 +1,14 @@
+$bg_color: #3f51b5;
+
+.loding {
+  width: 100%;
+  .header {
+    width: 100%;
+    height: 4rem;
+    background-color: $bg_color;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+}
