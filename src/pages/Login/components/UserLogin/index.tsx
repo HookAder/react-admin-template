@@ -13,7 +13,7 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import { ToastContainer, toast } from "react-toastify";
-
+import { site } from '../../../../config.json';
 import {
   actionChangeUser,
   actionChangePass,
@@ -28,7 +28,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
       <Link color="inherit" href="/">
-        爬虫系统
+        {site}
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}

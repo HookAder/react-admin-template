@@ -4,12 +4,10 @@ import { useSelector, useDispatch } from "react-redux";
 import { createStyles, Theme, makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import List from "@material-ui/core/List";
-import Divider from "@material-ui/core/Divider";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListItemText from "@material-ui/core/ListItemText";
-import LinearProgress from "@material-ui/core/LinearProgress";
+import {
+  List,Divider,ListItem,ListItemIcon,
+    ListItemText,  LinearProgress
+} from '@material-ui/core';
 import ExitToApp from "@material-ui/icons/ExitToApp";
 import { confirmAlert } from "react-confirm-alert";
 import { selectorStore } from "./homeSlice";
